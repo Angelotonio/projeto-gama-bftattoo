@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.section-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.background-section1{
+    background-image: url(../assets/leaf-green-dark-plant.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.background-section2{
+    background-image: url(../assets/leaf-green-dark-plant.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.background-section3{
+    background-image: url(../assets//tigre.jpg);
+    border-radius: 12px;
+    background-position: center;
+    background-size: contain;
+}
+
+
+ footer{
+     height: 150px;
+     padding: 25px;
+     text-align: center;
+     background-color: #123;
+     color: #fff 
+ }
+
+ .card-container{
+     border-color: tomato;
+     border-radius: 10px;
+     padding: 25px;
+     margin-right: 420px;
+     max-height: fit-content;
+
+ }
+ form{
+     display: grid;
+     color: white;
+ }
+ input{
+     width: 100%;
+     height: 30px;
+     margin-bottom: 10px;
+     text-align: center;
+     border-radius: 12px;
+     background: #100;
+     color: #fff
+ }
+.newsletter{
+    display: flex;
+    padding: 25px;
+    color: #fff;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    width: fit-content;
+    text-align: center;
+    font-size: 58;
+    font-weight: bolder;
+    margin: 90px 20px;
+}
+
+.div{
+    display: flex;
+    width: 200px;
+    border: 1px solid black;
+    background-color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

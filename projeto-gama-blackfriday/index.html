@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Tatuagens autorais">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css"> 
+<style>
+    .card {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 400px;
+    height:400px;
+    border: 1px solid white;
+    background-color:black;
+    border-radius: 10px;
+    padding: 15px;
+    font-family: 'Permanent Marker', cursive;
+    color: white
+    }
+
+    #logo{
+        width: 300px;
+    }
+
+    .produtos{
+        width: 190px;
+        border-radius: 13px;
+    }
+    .buy-button{
+        border-radius: 10px;
+        background-color: #fff;
+        border: 1px solid #000;
+        padding: 10px;
+    }
+    .buy-button:hover {
+        cursor:pointer;
+        background-color: #000;
+        color: #fff;
+    }
+
+    @media (max-width: 600px){
+        .catalogo{
+            width: 100%;
+            align-content: center;
+        }
+        .card-container{
+            width: 100%;
+        }
+        .card{
+            width: 100%;
+        }
+        #logo{
+            width: 100%;
+        }
+    }
+ 
+</style>
+</head>
+<body class="catalogo">
+    
+    <section class="section-container background-section2">
+        <img id='logo2' src="https://landing.terabyteshop.com.br/black-friday/img/logo-black-friday.png" alt="Logotipo">
+        <div3 class="card">
+            <h1>Tatuagens Exclusivas</h1>
+            <img class="produtos" src="assets/tattoo1.jpg" alt="produto1">
+                <p2>Até 25% de desconto!</p2>
+                <button class='buy-button'>Ver desenhos disponíveis</button>
+        </div>
+
+        <div4 class="card">
+            <h1>Projetos Freehand</h1>
+            <img class="produtos" src="assets/freehand1.JPG" alt="produto2">
+                <p2>Até 20% de desconto!</p2>
+                <button class='buy-button'>Faça seu orçamento!</button>
+        </div>
+
+        <div4 class="card">
+            <h1>Roupas Personalizadas</h1>
+            <img class="produtos" src="assets/jaqueta1.JPG" alt="produto3">
+                <p2>Até 15% de desconto!</p2>
+                <button class='buy-button'>Ver peças disponíveis</button>
+        </div>
+
+        <div4 class="card">
+            <h1>Pinturas Exclusivas</h1>
+            <img class="produtos" src="assets/quadro1.JPG" alt="produto4">
+                <p2>Até 15% de desconto!</p2>
+                <button class='buy-button'>Ver pinturas disponíveis</button>
+        </div>
+    </section>
+    <section class="section-container background-section1">
+        <div class="card-container background-section3">
+            <div id="content">
+                <p2 class="newsletter">Cadastre-se abaixo para receber as promoções por e-mail!</p2>
+                <form id="form">
+                    <input type="text" placeholder="nome" id='nome'>
+                    <input type="text" placeholder="email" id='email'>
+                    <input type="submit" value="Cadastrar">
+
+                </form>
+            
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Todos os direitos reservados.</p>
+    </footer>
+</body class="newsletter">
+<script src="js/script.js"></script>
+</html>
